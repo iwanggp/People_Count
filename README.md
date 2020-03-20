@@ -5,7 +5,7 @@
 [[Paper]](https://pjreddie.com/media/files/papers/YOLOv3.pdf)   
 [[Original Implementation]](https://github.com/pjreddie/darknet) 
 #### Demo
-![demo](https://github.com/iwanggp/People_Count/video.mp4) 
+请查看**video.mp4**测试视频。 
  
 #### 人头检测模型下载
 
@@ -20,12 +20,6 @@
 * TensorFlow >= 1.12.0
 * dlib
 
-##### 获取代码
-```
-git clone git@github.com:iwanggp/People_Count.git
-cd People_Count
-pip3 install -r piplist.txt --user
-```
 ## 相关参数配置
 ##### 请查考config文件夹内容
 * 本工程采用的时**yacs**项目配置工具进行配置的，使用该工具非常的边界。为我们以后项目改动和调参提供了很大的便利。
@@ -69,4 +63,5 @@ python run.py
 
 ## 参考链接
 * [darknet](https://github.com/pjreddie/darknet)
-* [Trainning code](https://github.com/iwanggp/flag-detection): Thanks for YOLO loss code
+* [Trainning code](https://github.com/iwanggp/flag-detection)
+* [YOLOv3](https://github.com/qqwweee/keras-yolo3)
